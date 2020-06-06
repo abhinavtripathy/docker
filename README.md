@@ -19,5 +19,5 @@ sudo docker system df
 #### Cleanup old and unused images
 sudo docker image prune
 
-### Cleanup all images
+#### Cleanup all images
 sudo docker image rm $(sudo docker image ls -q)
