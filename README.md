@@ -21,3 +21,9 @@ sudo docker image prune
 
 #### Cleanup all images
 sudo docker image rm $(sudo docker image ls -q)
+
+### Docker Compose 
+
+sudo docker-compose up
+
+sudo docker-compose down
